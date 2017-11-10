@@ -36,6 +36,9 @@
 		<h2 id="textoutput" class="center">Show results here</h2>
 	</div>
 	<script type="text/javascript">
+    // Second way of doing an event listener.
+    // document.getElementById('entrybutton').addEventListener('click', inform);    
+    
     // This function will take the input entered from the user, display an alert when
     // the alert me button is clicked, and then display the input below the alert button.
     function inform()
@@ -44,9 +47,6 @@
       alert('Deborah Barndt: ' + userinput);
       document.getElementById('textoutput').innerHTML = userinput;
     }
-    
-    // Second way of doing an event listener.
-    // document.getElementById('entrybutton').addEventListener('click', inform);
 	</script>
 </body>
 </html>
